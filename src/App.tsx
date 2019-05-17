@@ -42,7 +42,7 @@ class App extends React.PureComponent<IProps, IState> {
                   return (
                     <li key={itemIndex}>
                       <a href={item.link}>{item.title}</a>
-                      <div>{item.content}</div>
+                      <div>{item['content:encoded']}</div>
                     </li>
                   )
                 })

@@ -2,6 +2,7 @@ import Parser from 'rss-parser';
 const parser = new Parser();
 
 const feedUrls = [
+  'https://thenorthstar.com/feed',
   'https://www.cbsnews.com/latest/rss/main',
   'http://feeds.nbcnews.com/nbcnews/public/news',
 ]
